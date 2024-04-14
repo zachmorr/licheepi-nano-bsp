@@ -1,0 +1,12 @@
+index d0bd513..bb6e88a 100644
+--- a/esp_hosted_ng/host/spi/esp_spi.c
++++ b/esp_hosted_ng/host/spi/esp_spi.c
+@@ -17,7 +17,7 @@
+ #include "esp_utils.h"
+ #include "esp_cfg80211.h"
+ 
+-#define SPI_INITIAL_CLK_MHZ     10
++#define SPI_INITIAL_CLK_MHZ     10
+ #define TX_MAX_PENDING_COUNT    100
+ #define TX_RESUME_THRESHOLD     (TX_MAX_PENDING_COUNT/5)
+ 

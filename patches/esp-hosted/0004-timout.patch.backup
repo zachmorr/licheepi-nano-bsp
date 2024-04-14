@@ -1,0 +1,13 @@
+diff --git a/esp_hosted_ng/host/esp_cmd.c b/esp_hosted_ng/host/esp_cmd.c
+index 376d528..971829c 100644
+--- a/esp_hosted_ng/host/esp_cmd.c
++++ b/esp_hosted_ng/host/esp_cmd.c
+@@ -14,7 +14,7 @@
+ #include "esp_kernel_port.h"
+ #include "esp_stats.h"
+ 
+-#define COMMAND_RESPONSE_TIMEOUT (5 * HZ)
++#define COMMAND_RESPONSE_TIMEOUT (15 * HZ)
+ u8 ap_bssid[MAC_ADDR_LEN];
+ extern u32 raw_tp_mode;
+ 
